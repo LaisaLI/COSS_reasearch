@@ -1,2 +1,8 @@
-# COSS_reasearch
-all notebooks about the reseach paper: COSS
+## Covariate Ordered Systematic Sampling as an Improvement to Randomized Controlled Trials
+
+This repository includes the code for the simulation experiment of the research work: Covariate Ordered Systematic Sampling (COSS).
+
+### Abstract
+
+The Randomized Controlled Trial (RCT) or A/B testing is considered the gold standard method for estimating causal effects. Fisher famously advocated randomly allocating experiment units into treatment and control groups to preclude systematic biases. We propose a variant of systematic sampling called Covariate Ordered Systematic Sampling (COSS). In COSS, we order experimental units using a pre-experiment covariate and allocate them alternately into treatment and control groups. Using theoretical proofs, experiments on simulated data, and hundreds of A/B tests conducted within 3 real-world marketing campaigns, we show how our method achieves better sensitivity gains than commonly used variance reduction techniques like CUPED while retaining the simplicity of RCTs.
+
